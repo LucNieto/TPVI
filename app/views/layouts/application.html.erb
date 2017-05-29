@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Projet Dans Rails</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+<body class="homepage">
+
+<%= render 'partials/navbar'%>
+
+
+<%= yield %>
+
+
+<%= render 'partials/footer'%>
+</body>
+</html>

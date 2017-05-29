@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teacher: one
+  user: one
+  q1: MyString
+  q2: MyString
+  q3: false
+  q4: MyText
+  q5: 1
+  q6: MyString
+  q7: MyString
+  q8: false
+  q9: MyString
+  q10: MyText
+
+two:
+  teacher: two
+  user: two
+  q1: MyString
+  q2: MyString
+  q3: false
+  q4: MyText
+  q5: 1
+  q6: MyString
+  q7: MyString
+  q8: false
+  q9: MyString
+  q10: MyText

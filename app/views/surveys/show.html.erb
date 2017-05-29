@@ -1,0 +1,72 @@
+<div id="featured">
+
+  <div id="main">
+    <div id="content" class="container">
+      <section>
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Teacher:</strong>
+  <%= @survey.teacher.nombre %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @survey.user.email %>
+</p>
+
+<p>
+  <strong>Q1:</strong>
+  <%= @survey.q1 %>
+</p>
+
+<p>
+  <strong>Q2:</strong>
+  <%= @survey.q2 %>
+</p>
+
+<p>
+  <strong>Q3:</strong>
+  <%= @survey.q3 %>
+</p>
+
+<p>
+  <strong>Q4:</strong>
+  <%= @survey.q4 %>
+</p>
+
+<p>
+  <strong>Q5:</strong>
+  <%= @survey.q5 %>
+</p>
+
+<p>
+  <strong>Q6:</strong>
+  <%= @survey.q6 %>
+</p>
+
+<p>
+  <strong>Q7:</strong>
+  <%= @survey.q7 %>
+</p>
+
+<p>
+  <strong>Q8:</strong>
+  <%= @survey.q8 %>
+</p>
+
+<p>
+  <strong>Q9:</strong>
+  <%= @survey.q9 %>
+</p>
+
+<p>
+  <strong>Q10:</strong>
+  <%= @survey.q10 %>
+</p>
+
+<%= link_to 'Editar', edit_survey_path(@survey) %> |
+<%= link_to 'Siguiente', new_survey_path %>
+      </section>
+    </div>
+  </div>
+</div>
